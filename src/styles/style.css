@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  height: 100vh;
+  padding-bottom: 2000px;
+  font-family: "Roboto", sans-serif;
+}
+
+.left {
+  width: 11vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1.8rem;
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100vh;
+  border-right: 1px solid rgba(128, 128, 128, 0.548);
+}
+
+.middle {
+  width: 45vw;
+  margin-left: 25vw;
+  margin-right: 8vw;
+  display: grid;
+  grid-template-rows: 13vh 1fr;
+}
+
+.middle-top {
+  background-color: lightcoral;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.middle-bottom {
+  margin-top: 2rem;
+  background-color: crimson;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+}
+
+.right {
+  width: 15vw;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.logo {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.logo-instagram {
+  height: 30px;
+  mix-blend-mode: multiply;
+}
+
+.navigate-options {
+  margin-bottom: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  place-items: center;
+  cursor: pointer;
+}
+
+.navigate-options:hover {
+  background-color: rgba(128, 128, 128, 0.192);
+}
+.navigate-options-text {
+  padding-right: 20px;
+}
+
+.navigate-options-images {
+  width: 24px;
+  margin-right: 19px;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.extras {
+  margin-top: 30px;
+  padding-top: 1rem;
+}
