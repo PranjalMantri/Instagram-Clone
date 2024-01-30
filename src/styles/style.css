@@ -36,7 +36,7 @@ body {
 .middle {
   width: 45vw;
   margin-left: 22vw;
-  margin-right: 8vw;
+  margin-right: 5vw;
   display: grid;
   grid-template-rows: 13vh 1fr;
 }
@@ -61,13 +61,11 @@ body {
 }
 
 .right {
-  width: 15vw;
-  background-color: royalblue;
+  grid-column: 3/3;
+  /* background-color: royalblue; */
+  width: 18vw;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 3rem 2rem 3rem;
+  padding: 2rem 2rem 2rem 2rem;
+  margin-right: 10rem;
 }
