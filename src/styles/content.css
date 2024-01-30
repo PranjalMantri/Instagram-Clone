@@ -1,0 +1,128 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.post-info {
+  height: 3rem;
+  display: flex;
+}
+
+.account-profile-pic {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-profile-pic img {
+  width: 2.6rem;
+  border-radius: 50%;
+}
+
+.account-info {
+  width: 22rem;
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-left: 0.7rem;
+}
+
+.account-name {
+  font-size: 0.8rem;
+}
+
+.post-options {
+  width: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 800;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.like {
+  position: relative;
+}
+
+.interact-with-post {
+  width: 1.5rem;
+  margin-right: 1.1rem;
+}
+
+.bookmark {
+  position: absolute;
+  right: 0;
+  margin-right: 0;
+}
+
+.time {
+  color: gray;
+}
+
+.number-of-likes {
+  position: relative;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.image-1 {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.image-2 {
+  width: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0.8rem;
+}
+
+.num-likes {
+  position: relative;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 550;
+}
+
+.caption {
+  margin-top: 0.3rem;
+  color: black;
+  font-size: 0.85rem;
+  font-weight: 550;
+}
+
+.cap {
+  font-weight: 350;
+}
+
+.num-comments {
+  margin-top: 0.3rem;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.add-comment {
+  margin-top: 0.3rem;
+  color: gray;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  background-color: rgba(128, 128, 128, 0.221);
+  height: 1px;
+  margin: 1rem 0;
+}

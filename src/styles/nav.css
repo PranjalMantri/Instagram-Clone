@@ -1,0 +1,41 @@
+.logo {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.logo-instagram {
+  height: 2rem;
+  mix-blend-mode: multiply;
+}
+
+.navigate-options {
+  margin-bottom: 0.35rem;
+  height: 3.1rem;
+  display: flex;
+  align-items: center;
+  place-items: center;
+  cursor: pointer;
+}
+
+.navigate-options:hover {
+  background-color: rgba(128, 128, 128, 0.192);
+}
+.navigate-options-text {
+  padding-right: 1.4rem;
+}
+
+.navigate-options-images {
+  width: 1.5rem;
+  margin-right: 19px;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.extras {
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
